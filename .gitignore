@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+config.yaml
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Generated data / local state
+chroma_db/
+data/*
+temp_pdfs/
+temp_voice_input.wav
+*.sqlite
+*.db
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
