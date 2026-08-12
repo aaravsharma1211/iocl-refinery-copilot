@@ -1,0 +1,17 @@
+# Copy this file to config.yaml for local development.
+# NEVER commit config.yaml because it contains local credentials.
+
+credentials:
+  usernames:
+    demo_user:
+      email: demo@example.com
+      name: Demo User
+      password: CHANGE_ME
+
+cookie:
+  expiry_days: 30
+  key: CHANGE_ME_TO_A_RANDOM_SECRET
+  name: enterprise_ai_cookie
+
+preauthorized:
+  emails: []
