@@ -1,21 +1,17 @@
+# Local authentication configuration.
+# This file is intentionally safe for the public repository.
+# For local development, replace the demo password and cookie key locally.
+
 credentials:
   usernames:
-    jsmith:
-      email: jsmith@company.com
-      name: John Smith
-      password: abc123
-    rdoe:
-      email: rdoe@company.com
-      name: Jane Doe
-      password: abc123
-    aarav:
-      email: aarav.sharma@company.com
-      name: Aarav Sharma
-      password: abc123
+    demo_user:
+      email: demo@example.com
+      name: Demo User
+      password: CHANGE_ME
 
 cookie:
   expiry_days: 30
-  key: enterprise_security_signature_key
+  key: CHANGE_ME_TO_A_RANDOM_SECRET
   name: enterprise_ai_cookie
 
 preauthorized:
